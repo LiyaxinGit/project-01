@@ -80,6 +80,7 @@ git log -2 --pretty=format:"%h | %an | %ar | %s"
 ## 10.回退到指定的版本
 
 ```shell
+#回退版本的时候前提是文件都处于最理想状态(未修改状态)
 # 在一行上展示所有的提交历史
 git log --pretty=oneline
 
